@@ -1,0 +1,535 @@
+20:08:30 **** Build of project nvdla_test_bsp ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_9/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling gpiops"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v3_9/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v3_9/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_6/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_6/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v4_0/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v4_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v7_0/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v7_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling standalone"
+In file included from usleep.c:56:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:53:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+20:09:02 **** Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ../../nvdla_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): in function `_start':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test_bsp\ps7_cortexa9_0\libsrc\standalone_v7_0\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:09:21 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ../../nvdla_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): in function `_start':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test_bsp\ps7_cortexa9_0\libsrc\standalone_v7_0\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:10:20 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ../../nvdla_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): in function `_start':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test_bsp\ps7_cortexa9_0\libsrc\standalone_v7_0\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:10:40 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ../../nvdla_test_bsp/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): in function `_start':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test_bsp\ps7_cortexa9_0\libsrc\standalone_v7_0\src/xil-crt0.S:138: undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:10:57 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:62: warning: "XPAR_PS7_SCUGIC_0_DEVICE_ID" redefined
+ #define XPAR_PS7_SCUGIC_0_DEVICE_ID 0
+ 
+In file included from ../src/main.c:46:
+../../nvdla_test_bsp/ps7_cortexa9_0/include/xparameters.h:306: note: this is the location of the previous definition
+ #define XPAR_PS7_SCUGIC_0_DEVICE_ID 0U
+ 
+../src/main.c: In function 'main':
+../src/main.c:164:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/main.c:188:84: warning: right shift count >= width of type [-Wshift-count-overflow]
+     xil_printf("HW Version is %x.%x \r\n", reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MAJOR_FIELD,reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MINOR_FIELD);
+                                                                                    ^~
+../src/main.c:188:169: warning: right shift count >= width of type [-Wshift-count-overflow]
+     xil_printf("HW Version is %x.%x \r\n", reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MAJOR_FIELD,reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MINOR_FIELD);
+                                                                                                                                                                         ^~
+../src/main.c:190:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("***********************\n");
+     ^~~~~~
+../src/main.c:190:5: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main.c:190:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main.c:52:1:
++#include <stdio.h>
+ 
+../src/main.c:190:5:
+     printf("***********************\n");
+     ^~~~~~
+../src/main.c:194:5: warning: implicit declaration of function 'nv_small_run' [-Wimplicit-function-declaration]
+     nv_small_run();
+     ^~~~~~~~~~~~
+../src/main.c:195:5: warning: implicit declaration of function 'nvdla_wait_for_ready' [-Wimplicit-function-declaration]
+     nvdla_wait_for_ready();
+     ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:170:9: warning: unused variable 'period' [-Wunused-variable]
+     u32 period = 0;
+         ^~~~~~
+../src/main.c:169:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^~~~~
+../src/main.c:167:18: warning: unused variable 'memory_value2' [-Wunused-variable]
+     unsigned int memory_value2;
+                  ^~~~~~~~~~~~~
+../src/main.c:166:18: warning: unused variable 'memory_value1' [-Wunused-variable]
+     unsigned int memory_value1;
+                  ^~~~~~~~~~~~~
+../src/main.c:165:18: warning: unused variable 'memory_value' [-Wunused-variable]
+     unsigned int memory_value;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:194: undefined reference to `nv_small_run'
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:11:18 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:194: undefined reference to `nv_small_run'
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:11:29 **** Clean-only build of configuration Debug for project nvdla_test ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  nvdla_test.elf.size  nvdla_test.elf
+' '
+20:11:29 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:62: warning: "XPAR_PS7_SCUGIC_0_DEVICE_ID" redefined
+ #define XPAR_PS7_SCUGIC_0_DEVICE_ID 0
+ 
+In file included from ../src/main.c:46:
+../../nvdla_test_bsp/ps7_cortexa9_0/include/xparameters.h:306: note: this is the location of the previous definition
+ #define XPAR_PS7_SCUGIC_0_DEVICE_ID 0U
+ 
+../src/main.c: In function 'main':
+../src/main.c:164:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/main.c:188:84: warning: right shift count >= width of type [-Wshift-count-overflow]
+     xil_printf("HW Version is %x.%x \r\n", reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MAJOR_FIELD,reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MINOR_FIELD);
+                                                                                    ^~
+../src/main.c:188:169: warning: right shift count >= width of type [-Wshift-count-overflow]
+     xil_printf("HW Version is %x.%x \r\n", reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MAJOR_FIELD,reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MINOR_FIELD);
+                                                                                                                                                                         ^~
+../src/main.c:190:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("***********************\n");
+     ^~~~~~
+../src/main.c:190:5: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main.c:190:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main.c:52:1:
++#include <stdio.h>
+ 
+../src/main.c:190:5:
+     printf("***********************\n");
+     ^~~~~~
+../src/main.c:194:5: warning: implicit declaration of function 'nv_small_run' [-Wimplicit-function-declaration]
+     nv_small_run();
+     ^~~~~~~~~~~~
+../src/main.c:195:5: warning: implicit declaration of function 'nvdla_wait_for_ready' [-Wimplicit-function-declaration]
+     nvdla_wait_for_ready();
+     ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:170:9: warning: unused variable 'period' [-Wunused-variable]
+     u32 period = 0;
+         ^~~~~~
+../src/main.c:169:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^~~~~
+../src/main.c:167:18: warning: unused variable 'memory_value2' [-Wunused-variable]
+     unsigned int memory_value2;
+                  ^~~~~~~~~~~~~
+../src/main.c:166:18: warning: unused variable 'memory_value1' [-Wunused-variable]
+     unsigned int memory_value1;
+                  ^~~~~~~~~~~~~
+../src/main.c:165:18: warning: unused variable 'memory_value' [-Wunused-variable]
+     unsigned int memory_value;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:194: undefined reference to `nv_small_run'
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:11:40 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:194: undefined reference to `nv_small_run'
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:11:51 **** Clean-only build of configuration Debug for project nvdla_test ****
+make clean 
+rm -rf  ./src/main.o ./src/platform.o  ./src/main.d ./src/platform.d  nvdla_test.elf.size  nvdla_test.elf
+' '
+20:11:51 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:62: warning: "XPAR_PS7_SCUGIC_0_DEVICE_ID" redefined
+ #define XPAR_PS7_SCUGIC_0_DEVICE_ID 0
+ 
+In file included from ../src/main.c:46:
+../../nvdla_test_bsp/ps7_cortexa9_0/include/xparameters.h:306: note: this is the location of the previous definition
+ #define XPAR_PS7_SCUGIC_0_DEVICE_ID 0U
+ 
+../src/main.c: In function 'main':
+../src/main.c:164:5: warning: implicit declaration of function 'cleanup_platform' [-Wimplicit-function-declaration]
+     cleanup_platform();
+     ^~~~~~~~~~~~~~~~
+../src/main.c:188:84: warning: right shift count >= width of type [-Wshift-count-overflow]
+     xil_printf("HW Version is %x.%x \r\n", reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MAJOR_FIELD,reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MINOR_FIELD);
+                                                                                    ^~
+../src/main.c:188:169: warning: right shift count >= width of type [-Wshift-count-overflow]
+     xil_printf("HW Version is %x.%x \r\n", reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MAJOR_FIELD,reg_read(NVDLA_GLB_S_NVDLA_HW_VERSION_0)>>NVDLA_GLB_S_NVDLA_HW_VERSION_0_MINOR_FIELD);
+                                                                                                                                                                         ^~
+../src/main.c:190:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("***********************\n");
+     ^~~~~~
+../src/main.c:190:5: warning: incompatible implicit declaration of built-in function 'printf'
+../src/main.c:190:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/main.c:52:1:
++#include <stdio.h>
+ 
+../src/main.c:190:5:
+     printf("***********************\n");
+     ^~~~~~
+../src/main.c:194:5: warning: implicit declaration of function 'nv_small_run' [-Wimplicit-function-declaration]
+     nv_small_run();
+     ^~~~~~~~~~~~
+../src/main.c:195:5: warning: implicit declaration of function 'nvdla_wait_for_ready' [-Wimplicit-function-declaration]
+     nvdla_wait_for_ready();
+     ^~~~~~~~~~~~~~~~~~~~
+../src/main.c:170:9: warning: unused variable 'period' [-Wunused-variable]
+     u32 period = 0;
+         ^~~~~~
+../src/main.c:169:9: warning: unused variable 'value' [-Wunused-variable]
+     u32 value = 0;
+         ^~~~~
+../src/main.c:167:18: warning: unused variable 'memory_value2' [-Wunused-variable]
+     unsigned int memory_value2;
+                  ^~~~~~~~~~~~~
+../src/main.c:166:18: warning: unused variable 'memory_value1' [-Wunused-variable]
+     unsigned int memory_value1;
+                  ^~~~~~~~~~~~~
+../src/main.c:165:18: warning: unused variable 'memory_value' [-Wunused-variable]
+     unsigned int memory_value;
+                  ^~~~~~~~~~~~
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:194: undefined reference to `nv_small_run'
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:12:03 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/nv_small_run.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/nv_small_run.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nv_small_run.d" -MT"src/nv_small_run.o" -o "src/nv_small_run.o" "../src/nv_small_run.c"
+'Finished building: ../src/nv_small_run.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/nv_small_run.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:194: undefined reference to `nv_small_run'
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:12:25 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/nv_small_run.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/nv_small_run.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nv_small_run.d" -MT"src/nv_small_run.o" -o "src/nv_small_run.o" "../src/nv_small_run.c"
+../src/nv_small_run.c: In function 'nv_small_run':
+../src/nv_small_run.c:28:5: warning: implicit declaration of function 'reg_write' [-Wimplicit-function-declaration]
+     reg_write(NVDLA_SDP_S_POINTER_0, 0x0);
+     ^~~~~~~~~
+../src/nv_small_run.c:110:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+     printf("***********************\n");
+     ^~~~~~
+../src/nv_small_run.c:110:5: warning: incompatible implicit declaration of built-in function 'printf'
+../src/nv_small_run.c:110:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+../src/nv_small_run.c:8:1:
++#include <stdio.h>
+ 
+../src/nv_small_run.c:110:5:
+     printf("***********************\n");
+     ^~~~~~
+../src/nv_small_run.c:19:18: warning: unused variable 'memory_value' [-Wunused-variable]
+     unsigned int memory_value;
+                  ^~~~~~~~~~~~
+../src/nv_small_run.c:119:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/nv_small_run.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/nv_small_run.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:12:52 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/nvdla_state.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/nvdla_state.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvdla_state.d" -MT"src/nvdla_state.o" -o "src/nvdla_state.o" "../src/nvdla_state.c"
+'Finished building: ../src/nvdla_state.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/nv_small_run.o ./src/nvdla_state.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/software/vivado_2019_1/sdk/2019.1/gnu/aarch32/nt/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/8.2.0/../../../../arm-none-eabi/bin/ld.exe: ./src/main.o: in function `main':
+C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.sdk\nvdla_test\Debug/../src/main.c:195: undefined reference to `nvdla_wait_for_ready'
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:41: nvdla_test.elf] Error 1
+20:12:56 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/nvdla_state.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/nvdla_state.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvdla_state.d" -MT"src/nvdla_state.o" -o "src/nvdla_state.o" "../src/nvdla_state.c"
+../src/nvdla_state.c: In function 'nvdla_is_busy':
+../src/nvdla_state.c:5:10: warning: implicit declaration of function 'reg_read' [-Wimplicit-function-declaration]
+     if ((reg_read(NVDLA_CDMA_S_STATUS_0) & 0x30003)
+          ^~~~~~~~
+../src/nvdla_state.c: In function 'nvdla_wait_for_ready':
+../src/nvdla_state.c:22:5: warning: implicit declaration of function 'poll_field_equal' [-Wimplicit-function-declaration]
+     poll_field_equal(NVDLA_CDMA_S_STATUS_0, 0x30003,0);
+     ^~~~~~~~~~~~~~~~
+../src/nvdla_state.c: At top level:
+../src/nvdla_state.c:33:13: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'on'
+  *  Created on: 2021年12月9日
+             ^~
+../src/nvdla_state.c:33:21: error: stray '\304' in program
+  *  Created on: 2021年12月9日
+                     ^
+../src/nvdla_state.c:33:22: error: stray '\352' in program
+  *  Created on: 2021年12月9日
+                      ^
+../src/nvdla_state.c:33:25: error: stray '\324' in program
+  *  Created on: 2021年12月9日
+                         ^
+../src/nvdla_state.c:33:26: error: stray '\302' in program
+  *  Created on: 2021年12月9日
+                          ^
+../src/nvdla_state.c:33:28: error: stray '\310' in program
+  *  Created on: 2021年12月9日
+                            ^
+../src/nvdla_state.c:33:29: error: stray '\325' in program
+  *  Created on: 2021年12月9日
+                             ^
+make: *** [src/subdir.mk:32: src/nvdla_state.o] Error 1
+20:13:11 **** Auto Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/nvdla_state.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/nvdla_state.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../nvdla_test_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/nvdla_state.d" -MT"src/nvdla_state.o" -o "src/nvdla_state.o" "../src/nvdla_state.c"
+../src/nvdla_state.c: In function 'nvdla_is_busy':
+../src/nvdla_state.c:5:10: warning: implicit declaration of function 'reg_read' [-Wimplicit-function-declaration]
+     if ((reg_read(NVDLA_CDMA_S_STATUS_0) & 0x30003)
+          ^~~~~~~~
+../src/nvdla_state.c: In function 'nvdla_wait_for_ready':
+../src/nvdla_state.c:22:5: warning: implicit declaration of function 'poll_field_equal' [-Wimplicit-function-declaration]
+     poll_field_equal(NVDLA_CDMA_S_STATUS_0, 0x30003,0);
+     ^~~~~~~~~~~~~~~~
+'Finished building: ../src/nvdla_state.c'
+' '
+'Building target: nvdla_test.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../nvdla_test_bsp/ps7_cortexa9_0/lib -o "nvdla_test.elf"  ./src/main.o ./src/nv_small_run.o ./src/nvdla_state.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: nvdla_test.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size nvdla_test.elf  |tee "nvdla_test.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  61176	   2584	  23328	  87088	  15430	nvdla_test.elf
+'Finished building: nvdla_test.elf.size'
+' '
+20:13:37 **** Incremental Build of configuration Debug for project nvdla_test ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for 'main-build'.

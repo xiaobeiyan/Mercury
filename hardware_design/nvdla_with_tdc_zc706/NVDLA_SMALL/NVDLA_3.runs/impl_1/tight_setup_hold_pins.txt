@@ -1,0 +1,310 @@
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|       Launch Clock       |      Capture Clock       |                                                 Pin                                                      |
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[3].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[1].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[2].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[0].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[5].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[7].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[4].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[0].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[0].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[1].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[0].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[2].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[1].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[1].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[0].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[3].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[2].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[2].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[1].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[4].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[3].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[3].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[2].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[5].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[4].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[4].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[3].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[6].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[5].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[5].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[4].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[7].block_n/sampling_path[0].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[6].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[6].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[5].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[7].block_n/sampling_path[1].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[7].block_n/sampling_path[2].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[6].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_1 |design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/top/bank[6].sensors/sampling/delay_line[7].block_n/sampling_path[3].reg/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[5]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[1]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[8]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[0]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[7]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[27]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[23]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[4]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[3]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[12]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[13]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[6]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[2]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[22]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[11]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[9]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[21]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[30]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[19]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[14]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[17]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[20]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[29]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[15]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][7]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[31]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[28]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[26]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[16]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[10]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[18]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[25]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][4]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][1]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][5]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][3]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                     design_1_i/tdc_bank_0/U0/tdc_bank_v1_0_S_AXI_inst/axi_rdata_reg[24]/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][9]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][6]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][8]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |                                      design_1_i/ila_0/inst/ila_core_inst/shifted_data_in_reg[7][2]_srl8/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[1]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[5]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[6]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[2]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[4]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[7]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[8]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[0]/D|
+|               clk_fpga_1 |               clk_fpga_0 |design_1_i/ila_0/inst/ila_core_inst/u_trig/U_TM/N_DDR_MODE.G_NMU[1].U_M/allx_typeA_match_detection.ltlib_v1_0_0_allx_typeA_inst/probeDelay1_reg[3]/D|
++--------------------------+--------------------------+----------------------------------------------------------------------------------------------------------+

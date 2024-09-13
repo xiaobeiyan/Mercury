@@ -1,0 +1,1099 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Oct 14 12:54:35 2022
+# Process ID: 12440
+# Current directory: D:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.runs/design_1_tdc_bank_0_1_synth_1
+# Command line: vivado.exe -log design_1_tdc_bank_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_tdc_bank_0_1.tcl
+# Log file: D:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.runs/design_1_tdc_bank_0_1_synth_1/design_1_tdc_bank_0_1.vds
+# Journal file: D:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.runs/design_1_tdc_bank_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_tdc_bank_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/IP'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'e:/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Software/Xilinx/Vivado/2019.1/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.cache/ip 
+Command: synth_design -top design_1_tdc_bank_0_1 -part xc7z045ffg900-2 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z045'
+INFO: [Device 21-403] Loading part xc7z045ffg900-2
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 13928 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 812.414 ; gain = 177.375
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_1_tdc_bank_0_1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ip/design_1_tdc_bank_0_1/synth/design_1_tdc_bank_0_1.vhd:85]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter count_g bound to: 8 - type: integer 
+	Parameter width_g bound to: 32 - type: integer 
+	Parameter mode_g bound to: weight - type: string 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_bank_v1_0' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0.vhd:5' bound to instance 'U0' of component 'tdc_bank_v1_0' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ip/design_1_tdc_bank_0_1/synth/design_1_tdc_bank_0_1.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'tdc_bank_v1_0' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0.vhd:54]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter count_g bound to: 8 - type: integer 
+	Parameter width_g bound to: 32 - type: integer 
+	Parameter mode_g bound to: weight - type: string 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter count_g bound to: 8 - type: integer 
+	Parameter width_g bound to: 32 - type: integer 
+	Parameter mode_g bound to: weight - type: string 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_bank_v1_0_S_AXI' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0_S_AXI.vhd:10' bound to instance 'tdc_bank_v1_0_S_AXI_inst' of component 'tdc_bank_v1_0_S_AXI' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'tdc_bank_v1_0_S_AXI' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0_S_AXI.vhd:99]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter count_g bound to: 8 - type: integer 
+	Parameter width_g bound to: 32 - type: integer 
+	Parameter mode_g bound to: weight - type: string 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0_S_AXI.vhd:259]
+INFO: [Synth 8-226] default block is never used [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0_S_AXI.vhd:425]
+WARNING: [Synth 8-3919] null assignment ignored [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0_S_AXI.vhd:428]
+WARNING: [Synth 8-3919] null assignment ignored [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0_S_AXI.vhd:431]
+INFO: [Synth 8-638] synthesizing module 'tdc_bank' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:37]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter count_g bound to: 8 - type: integer 
+	Parameter width_g bound to: 32 - type: integer 
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:32]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter length_g bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'coarse_line' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:14' bound to instance 'coarse' of component 'coarse_line' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:75]
+INFO: [Synth 8-638] synthesizing module 'coarse_line' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:28]
+	Parameter length_g bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'coarse_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:11' bound to instance 'block_0' of component 'coarse_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'coarse_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:20]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:22]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:25]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:35]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_G_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'latch' to cell 'LDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:42]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:35]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_G_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'latch' to cell 'LDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:42]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:35]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_G_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'latch' to cell 'LDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:42]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:35]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_G_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'latch' to cell 'LDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'coarse_block' (1#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:20]
+INFO: [Synth 8-3491] module 'coarse_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:11' bound to instance 'block_1' of component 'coarse_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:59]
+INFO: [Synth 8-3491] module 'coarse_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:11' bound to instance 'block_2' of component 'coarse_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:64]
+INFO: [Synth 8-3491] module 'coarse_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_block.vhd:11' bound to instance 'block_3' of component 'coarse_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:69]
+INFO: [Synth 8-3491] module 'clock_mux' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:12' bound to instance 'mux' of component 'clock_mux' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'clock_mux' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:22]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:24]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:27]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:38]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:38]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:38]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:38]
+INFO: [Synth 8-113] binding component instance 'middle_mux_0' to cell 'MUXF7' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:46]
+INFO: [Synth 8-113] binding component instance 'middle_mux_1' to cell 'MUXF7' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:54]
+INFO: [Synth 8-113] binding component instance 'out_mux' to cell 'MUXF8' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'clock_mux' (2#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'coarse_line' (3#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/coarse_line.vhd:28]
+	Parameter length_g bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'fine_line' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:14' bound to instance 'fine' of component 'fine_line' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'fine_line' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:28]
+	Parameter length_g bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'fine_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:15' bound to instance 'block_0' of component 'fine_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:58]
+INFO: [Synth 8-638] synthesizing module 'fine_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:26]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:28]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:30]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:43]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:43]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:43]
+	Parameter INIT bound to: 2'b10 
+INFO: [Synth 8-113] binding component instance 'lut' to cell 'LUT1' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:43]
+INFO: [Synth 8-113] binding component instance 'middle_mux_0' to cell 'MUXF7' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:51]
+INFO: [Synth 8-113] binding component instance 'middle_mux_1' to cell 'MUXF7' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:59]
+INFO: [Synth 8-113] binding component instance 'out_mux' to cell 'MUXF8' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'fine_block' (4#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:26]
+INFO: [Synth 8-3491] module 'fine_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:15' bound to instance 'block_1' of component 'fine_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:65]
+INFO: [Synth 8-3491] module 'fine_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:15' bound to instance 'block_2' of component 'fine_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:72]
+INFO: [Synth 8-3491] module 'fine_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_block.vhd:15' bound to instance 'block_3' of component 'fine_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:79]
+INFO: [Synth 8-3491] module 'clock_mux' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/clock_mux.vhd:12' bound to instance 'mux' of component 'clock_mux' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:86]
+INFO: [Synth 8-256] done synthesizing module 'fine_line' (5#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/fine_line.vhd:28]
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'sampling_line' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:14' bound to instance 'sampling' of component 'sampling_line' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'sampling_line' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:28]
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:30]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:25]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:27]
+INFO: [Synth 8-113] binding component instance 'delay_path' to cell 'CARRY4' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:35]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'reg' to cell 'FDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:47]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'reg' to cell 'FDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:47]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'reg' to cell 'FDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:47]
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_CLR_INVERTED bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'reg' to cell 'FDCE' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'sampling_block' (6#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:25]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-3491] module 'sampling_block' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_block.vhd:14' bound to instance 'block_n' of component 'sampling_block' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'sampling_line' (7#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/sampling_line.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'tdc' (8#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:32]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+	Parameter length_coarse_g bound to: 1 - type: integer 
+	Parameter length_fine_g bound to: 1 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'tdc' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc.vhd:14' bound to instance 'sensors' of component 'tdc' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:80]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter count_g bound to: 8 - type: integer 
+	Parameter width_g bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_output' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:9' bound to instance 'outputs' of component 'tdc_output' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'tdc_output' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:25]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter count_g bound to: 8 - type: integer 
+	Parameter width_g bound to: 32 - type: integer 
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:21]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+WARNING: [Synth 8-5856] 3D RAM curr_sums_s_reg  for this pattern/configuration is not supported. This will most likely be implemented in registers
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][16] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][17] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][18] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][19] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][20] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][21] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][22] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][23] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][24] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][25] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][26] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][27] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][28] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][29] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][30] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][31] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][8] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][9] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][10] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][11] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][12] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][13] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][14] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][15] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][16] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][17] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][18] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][19] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][20] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][21] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][22] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][23] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][24] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][25] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][26] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][27] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][28] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][29] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][30] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[2][31] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][4] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][5] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][6] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][7] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][8] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][9] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][10] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][11] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][12] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][13] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][14] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][15] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][16] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][17] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][18] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][19] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][20] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][21] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][22] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][23] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][24] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][25] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][26] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][27] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][28] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][29] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][30] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[3][31] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][2] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][3] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][4] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][5] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][6] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][7] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][8] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][9] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][10] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][11] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][12] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][13] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][14] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][15] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][16] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][17] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][18] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][19] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][20] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][21] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][22] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][23] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][24] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][25] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][26] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][27] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][28] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][29] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][30] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[4][31] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'tdc_exp_sum' (9#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:21]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 32 - type: integer 
+	Parameter out_width_g bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'weights' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:82]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 256 - type: integer 
+	Parameter out_width_g bound to: 32 - type: integer 
+INFO: [Synth 8-3491] module 'tdc_exp_sum' declared at 'd:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:8' bound to instance 'sum' of component 'tdc_exp_sum' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:95]
+INFO: [Synth 8-638] synthesizing module 'tdc_exp_sum__parameterized2' [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:21]
+	Parameter depth_g bound to: 8 - type: integer 
+	Parameter in_width_g bound to: 256 - type: integer 
+	Parameter out_width_g bound to: 32 - type: integer 
+WARNING: [Synth 8-5856] 3D RAM curr_sums_s_reg  for this pattern/configuration is not supported. This will most likely be implemented in registers
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][128] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+WARNING: [Synth 8-6014] Unused sequential element curr_sums_s_reg[1][129] was removed.  [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:35]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'tdc_exp_sum__parameterized2' (9#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_exp_sum.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'tdc_output' (10#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_output.vhd:25]
+INFO: [Synth 8-256] done synthesizing module 'tdc_bank' (11#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/src/tdc_bank.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'tdc_bank_v1_0_S_AXI' (12#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0_S_AXI.vhd:99]
+INFO: [Synth 8-256] done synthesizing module 'tdc_bank_v1_0' (13#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ipshared/3b8d/hdl/tdc_bank_v1_0.vhd:54]
+INFO: [Synth 8-256] done synthesizing module 'design_1_tdc_bank_0_1' (14#1) [d:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/ip/design_1_tdc_bank_0_1/synth/design_1_tdc_bank_0_1.vhd:85]
+WARNING: [Synth 8-3331] design tdc_bank_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design tdc_bank_v1_0_S_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design tdc_bank_v1_0_S_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design tdc_bank_v1_0_S_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design tdc_bank_v1_0_S_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design tdc_bank_v1_0_S_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 885.973 ; gain = 250.934
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 885.973 ; gain = 250.934
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 885.973 ; gain = 250.934
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 208 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1048.133 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.406 . Memory (MB): peak = 1057.484 ; gain = 9.352
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z045ffg900-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 8     
+	   2 Input      5 Bit       Adders := 40    
+	   2 Input      4 Bit       Adders := 64    
+	   2 Input      3 Bit       Adders := 128   
+	   2 Input      2 Bit       Adders := 256   
++---Registers : 
+	               32 Bit    Registers := 8     
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 8     
+	                5 Bit    Registers := 42    
+	                4 Bit    Registers := 64    
+	                3 Bit    Registers := 128   
+	                2 Bit    Registers := 258   
+	                1 Bit    Registers := 518   
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   8 Input     32 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module tdc_exp_sum__parameterized2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 2     
+	   2 Input      7 Bit       Adders := 4     
+	   2 Input      6 Bit       Adders := 8     
+	   2 Input      5 Bit       Adders := 16    
+	   2 Input      4 Bit       Adders := 32    
+	   2 Input      3 Bit       Adders := 64    
+	   2 Input      2 Bit       Adders := 128   
++---Registers : 
+	                8 Bit    Registers := 2     
+	                7 Bit    Registers := 4     
+	                6 Bit    Registers := 8     
+	                5 Bit    Registers := 16    
+	                4 Bit    Registers := 32    
+	                3 Bit    Registers := 64    
+	                2 Bit    Registers := 128   
+	                1 Bit    Registers := 256   
+Module tdc_exp_sum 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 3     
+	   2 Input      4 Bit       Adders := 4     
+	   2 Input      3 Bit       Adders := 8     
+	   2 Input      2 Bit       Adders := 16    
++---Registers : 
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 4     
+	                3 Bit    Registers := 8     
+	                2 Bit    Registers := 16    
+	                1 Bit    Registers := 32    
+Module tdc_output 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	                5 Bit    Registers := 8     
+Module tdc_bank_v1_0_S_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 7     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 6     
+	   8 Input     32 Bit        Muxes := 6     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 900 (col length:140)
+BRAMs: 1090 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design design_1_tdc_bank_0_1 has unconnected port s_axi_awprot[2]
+WARNING: [Synth 8-3331] design design_1_tdc_bank_0_1 has unconnected port s_axi_awprot[1]
+WARNING: [Synth 8-3331] design design_1_tdc_bank_0_1 has unconnected port s_axi_awprot[0]
+WARNING: [Synth 8-3331] design design_1_tdc_bank_0_1 has unconnected port s_axi_arprot[2]
+WARNING: [Synth 8-3331] design design_1_tdc_bank_0_1 has unconnected port s_axi_arprot[1]
+WARNING: [Synth 8-3331] design design_1_tdc_bank_0_1 has unconnected port s_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][31][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][31][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][30][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][30][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][29][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][29][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][28][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][28][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][27][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][27][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][26][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][26][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][25][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][25][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][24][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][24][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][23][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][23][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][22][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][22][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][21][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][21][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][20][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][20][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][19][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][19][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][18][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][18][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][17][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][17][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][16][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][16][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][15][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][15][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][14][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][14][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][13][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][13][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][12][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][12][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][11][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][11][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][10][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][10][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][9][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][9][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][8][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][8][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][7][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][7][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][6][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][6][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][5][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][5][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][4][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][4][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][3][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][3][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][2][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][2][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][1][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][1][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[0].weights/curr_sums_s_reg[0][0][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][0][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][31][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][63][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][30][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][62][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][29][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][61][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][28][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][60][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][27][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][59][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][26][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][58][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][25][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][57][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][24][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][56][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][23][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][55][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][22][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][54][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][21][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][53][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][20][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][52][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][19][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][51][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][18][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][50][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][17][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][49][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][16][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][48][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][15][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][47][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][14][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][46][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][13][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][45][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][12][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][44][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][11][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][43][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][10][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][42][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][9][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][41][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][8][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][40][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][7][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][39][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][6][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][38][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][5][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][37][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][4][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][36][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][3][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][35][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][2][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][34][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][1][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][33][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[1].weights/curr_sums_s_reg[0][0][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][32][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][31][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][95][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][30][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][94][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][29][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][93][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][28][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][92][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][27][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][91][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][26][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][90][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][25][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][89][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][24][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][88][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][23][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][87][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][22][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][86][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][21][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][85][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][20][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][84][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][19][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][83][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][18][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][82][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][17][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][81][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][16][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][80][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][15][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][79][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][14][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][78][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][13][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][77][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][12][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][76][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][11][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][75][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][10][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][74][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][9][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][73][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][8][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][72][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][7][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][71][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][6][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][70][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][5][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][69][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][4][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][68][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][3][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][67][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][2][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][66][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][1][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][65][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[2].weights/curr_sums_s_reg[0][0][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][64][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[3].weights/curr_sums_s_reg[0][31][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][127][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[3].weights/curr_sums_s_reg[0][30][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][126][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[3].weights/curr_sums_s_reg[0][29][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][125][0]'
+INFO: [Synth 8-3886] merging instance 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/concat_sum[3].weights/curr_sums_s_reg[0][28][0]' (FD) to 'U0/tdc_bank_v1_0_S_AXI_inst/top/outputs/sum/curr_sums_s_reg[0][124][0]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[18] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[22] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/tdc_bank_v1_0_S_AXI_inst/top/outputs /\curr_weight_s_reg[31] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:21 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:29 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:30 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[3] to constant 0
+INFO: [Synth 8-3295] tying undriven pin mux_s_inferred:in0[2] to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    79|
+|2     |LUT1   |   385|
+|3     |LUT2   |   423|
+|4     |LUT3   |    41|
+|5     |LUT4   |   191|
+|6     |LUT5   |    63|
+|7     |LUT6   |   222|
+|8     |MUXF7  |   160|
+|9     |MUXF8  |    48|
+|10    |FDCE   |   256|
+|11    |FDRE   |  1245|
+|12    |FDSE   |     4|
+|13    |LDCE   |   128|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------------------+----------------------------+------+
+|      |Instance                            |Module                      |Cells |
++------+------------------------------------+----------------------------+------+
+|1     |top                                 |                            |  3245|
+|2     |  U0                                |tdc_bank_v1_0               |  3245|
+|3     |    tdc_bank_v1_0_S_AXI_inst        |tdc_bank_v1_0_S_AXI         |  3245|
+|4     |      top                           |tdc_bank                    |  2874|
+|5     |        \bank[0].sensors            |tdc__1                      |   122|
+|6     |          coarse                    |coarse_line__1              |    39|
+|7     |            \delay_line[0].block_0  |coarse_block__7             |     8|
+|8     |            \delay_line[0].block_1  |coarse_block__6             |     8|
+|9     |            \delay_line[0].block_2  |coarse_block__5             |     8|
+|10    |            \delay_line[0].block_3  |coarse_block__4             |     8|
+|11    |            \delay_line[0].mux      |clock_mux__3                |     7|
+|12    |          fine                      |fine_line__1                |    43|
+|13    |            \delay_line[0].block_0  |fine_block__7               |     9|
+|14    |            \delay_line[0].block_1  |fine_block__6               |     9|
+|15    |            \delay_line[0].block_2  |fine_block__5               |     9|
+|16    |            \delay_line[0].block_3  |fine_block__4               |     9|
+|17    |            \delay_line[0].mux      |clock_mux__2                |     7|
+|18    |          sampling                  |sampling_line__1            |    40|
+|19    |            \delay_line[0].block_n  |sampling_block__15          |     5|
+|20    |            \delay_line[1].block_n  |sampling_block__14          |     5|
+|21    |            \delay_line[2].block_n  |sampling_block__13          |     5|
+|22    |            \delay_line[3].block_n  |sampling_block__12          |     5|
+|23    |            \delay_line[4].block_n  |sampling_block__11          |     5|
+|24    |            \delay_line[5].block_n  |sampling_block__10          |     5|
+|25    |            \delay_line[6].block_n  |sampling_block__9           |     5|
+|26    |            \delay_line[7].block_n  |sampling_block__8           |     5|
+|27    |        \bank[1].sensors            |tdc__2                      |   122|
+|28    |          coarse                    |coarse_line__2              |    39|
+|29    |            \delay_line[0].block_0  |coarse_block__11            |     8|
+|30    |            \delay_line[0].block_1  |coarse_block__10            |     8|
+|31    |            \delay_line[0].block_2  |coarse_block__9             |     8|
+|32    |            \delay_line[0].block_3  |coarse_block__8             |     8|
+|33    |            \delay_line[0].mux      |clock_mux__5                |     7|
+|34    |          fine                      |fine_line__2                |    43|
+|35    |            \delay_line[0].block_0  |fine_block__11              |     9|
+|36    |            \delay_line[0].block_1  |fine_block__10              |     9|
+|37    |            \delay_line[0].block_2  |fine_block__9               |     9|
+|38    |            \delay_line[0].block_3  |fine_block__8               |     9|
+|39    |            \delay_line[0].mux      |clock_mux__4                |     7|
+|40    |          sampling                  |sampling_line__2            |    40|
+|41    |            \delay_line[0].block_n  |sampling_block__23          |     5|
+|42    |            \delay_line[1].block_n  |sampling_block__22          |     5|
+|43    |            \delay_line[2].block_n  |sampling_block__21          |     5|
+|44    |            \delay_line[3].block_n  |sampling_block__20          |     5|
+|45    |            \delay_line[4].block_n  |sampling_block__19          |     5|
+|46    |            \delay_line[5].block_n  |sampling_block__18          |     5|
+|47    |            \delay_line[6].block_n  |sampling_block__17          |     5|
+|48    |            \delay_line[7].block_n  |sampling_block__16          |     5|
+|49    |        \bank[2].sensors            |tdc__3                      |   122|
+|50    |          coarse                    |coarse_line__3              |    39|
+|51    |            \delay_line[0].block_0  |coarse_block__15            |     8|
+|52    |            \delay_line[0].block_1  |coarse_block__14            |     8|
+|53    |            \delay_line[0].block_2  |coarse_block__13            |     8|
+|54    |            \delay_line[0].block_3  |coarse_block__12            |     8|
+|55    |            \delay_line[0].mux      |clock_mux__7                |     7|
+|56    |          fine                      |fine_line__3                |    43|
+|57    |            \delay_line[0].block_0  |fine_block__15              |     9|
+|58    |            \delay_line[0].block_1  |fine_block__14              |     9|
+|59    |            \delay_line[0].block_2  |fine_block__13              |     9|
+|60    |            \delay_line[0].block_3  |fine_block__12              |     9|
+|61    |            \delay_line[0].mux      |clock_mux__6                |     7|
+|62    |          sampling                  |sampling_line__3            |    40|
+|63    |            \delay_line[0].block_n  |sampling_block__31          |     5|
+|64    |            \delay_line[1].block_n  |sampling_block__30          |     5|
+|65    |            \delay_line[2].block_n  |sampling_block__29          |     5|
+|66    |            \delay_line[3].block_n  |sampling_block__28          |     5|
+|67    |            \delay_line[4].block_n  |sampling_block__27          |     5|
+|68    |            \delay_line[5].block_n  |sampling_block__26          |     5|
+|69    |            \delay_line[6].block_n  |sampling_block__25          |     5|
+|70    |            \delay_line[7].block_n  |sampling_block__24          |     5|
+|71    |        \bank[3].sensors            |tdc__4                      |   122|
+|72    |          coarse                    |coarse_line__4              |    39|
+|73    |            \delay_line[0].block_0  |coarse_block__19            |     8|
+|74    |            \delay_line[0].block_1  |coarse_block__18            |     8|
+|75    |            \delay_line[0].block_2  |coarse_block__17            |     8|
+|76    |            \delay_line[0].block_3  |coarse_block__16            |     8|
+|77    |            \delay_line[0].mux      |clock_mux__9                |     7|
+|78    |          fine                      |fine_line__4                |    43|
+|79    |            \delay_line[0].block_0  |fine_block__19              |     9|
+|80    |            \delay_line[0].block_1  |fine_block__18              |     9|
+|81    |            \delay_line[0].block_2  |fine_block__17              |     9|
+|82    |            \delay_line[0].block_3  |fine_block__16              |     9|
+|83    |            \delay_line[0].mux      |clock_mux__8                |     7|
+|84    |          sampling                  |sampling_line__4            |    40|
+|85    |            \delay_line[0].block_n  |sampling_block__39          |     5|
+|86    |            \delay_line[1].block_n  |sampling_block__38          |     5|
+|87    |            \delay_line[2].block_n  |sampling_block__37          |     5|
+|88    |            \delay_line[3].block_n  |sampling_block__36          |     5|
+|89    |            \delay_line[4].block_n  |sampling_block__35          |     5|
+|90    |            \delay_line[5].block_n  |sampling_block__34          |     5|
+|91    |            \delay_line[6].block_n  |sampling_block__33          |     5|
+|92    |            \delay_line[7].block_n  |sampling_block__32          |     5|
+|93    |        \bank[4].sensors            |tdc__5                      |   122|
+|94    |          coarse                    |coarse_line__5              |    39|
+|95    |            \delay_line[0].block_0  |coarse_block__23            |     8|
+|96    |            \delay_line[0].block_1  |coarse_block__22            |     8|
+|97    |            \delay_line[0].block_2  |coarse_block__21            |     8|
+|98    |            \delay_line[0].block_3  |coarse_block__20            |     8|
+|99    |            \delay_line[0].mux      |clock_mux__11               |     7|
+|100   |          fine                      |fine_line__5                |    43|
+|101   |            \delay_line[0].block_0  |fine_block__23              |     9|
+|102   |            \delay_line[0].block_1  |fine_block__22              |     9|
+|103   |            \delay_line[0].block_2  |fine_block__21              |     9|
+|104   |            \delay_line[0].block_3  |fine_block__20              |     9|
+|105   |            \delay_line[0].mux      |clock_mux__10               |     7|
+|106   |          sampling                  |sampling_line__5            |    40|
+|107   |            \delay_line[0].block_n  |sampling_block__47          |     5|
+|108   |            \delay_line[1].block_n  |sampling_block__46          |     5|
+|109   |            \delay_line[2].block_n  |sampling_block__45          |     5|
+|110   |            \delay_line[3].block_n  |sampling_block__44          |     5|
+|111   |            \delay_line[4].block_n  |sampling_block__43          |     5|
+|112   |            \delay_line[5].block_n  |sampling_block__42          |     5|
+|113   |            \delay_line[6].block_n  |sampling_block__41          |     5|
+|114   |            \delay_line[7].block_n  |sampling_block__40          |     5|
+|115   |        \bank[5].sensors            |tdc__6                      |   122|
+|116   |          coarse                    |coarse_line__6              |    39|
+|117   |            \delay_line[0].block_0  |coarse_block__27            |     8|
+|118   |            \delay_line[0].block_1  |coarse_block__26            |     8|
+|119   |            \delay_line[0].block_2  |coarse_block__25            |     8|
+|120   |            \delay_line[0].block_3  |coarse_block__24            |     8|
+|121   |            \delay_line[0].mux      |clock_mux__13               |     7|
+|122   |          fine                      |fine_line__6                |    43|
+|123   |            \delay_line[0].block_0  |fine_block__27              |     9|
+|124   |            \delay_line[0].block_1  |fine_block__26              |     9|
+|125   |            \delay_line[0].block_2  |fine_block__25              |     9|
+|126   |            \delay_line[0].block_3  |fine_block__24              |     9|
+|127   |            \delay_line[0].mux      |clock_mux__12               |     7|
+|128   |          sampling                  |sampling_line__6            |    40|
+|129   |            \delay_line[0].block_n  |sampling_block__55          |     5|
+|130   |            \delay_line[1].block_n  |sampling_block__54          |     5|
+|131   |            \delay_line[2].block_n  |sampling_block__53          |     5|
+|132   |            \delay_line[3].block_n  |sampling_block__52          |     5|
+|133   |            \delay_line[4].block_n  |sampling_block__51          |     5|
+|134   |            \delay_line[5].block_n  |sampling_block__50          |     5|
+|135   |            \delay_line[6].block_n  |sampling_block__49          |     5|
+|136   |            \delay_line[7].block_n  |sampling_block__48          |     5|
+|137   |        \bank[6].sensors            |tdc__7                      |   122|
+|138   |          coarse                    |coarse_line__7              |    39|
+|139   |            \delay_line[0].block_0  |coarse_block__31            |     8|
+|140   |            \delay_line[0].block_1  |coarse_block__30            |     8|
+|141   |            \delay_line[0].block_2  |coarse_block__29            |     8|
+|142   |            \delay_line[0].block_3  |coarse_block__28            |     8|
+|143   |            \delay_line[0].mux      |clock_mux__15               |     7|
+|144   |          fine                      |fine_line__7                |    43|
+|145   |            \delay_line[0].block_0  |fine_block__31              |     9|
+|146   |            \delay_line[0].block_1  |fine_block__30              |     9|
+|147   |            \delay_line[0].block_2  |fine_block__29              |     9|
+|148   |            \delay_line[0].block_3  |fine_block__28              |     9|
+|149   |            \delay_line[0].mux      |clock_mux__14               |     7|
+|150   |          sampling                  |sampling_line__7            |    40|
+|151   |            \delay_line[0].block_n  |sampling_block__63          |     5|
+|152   |            \delay_line[1].block_n  |sampling_block__62          |     5|
+|153   |            \delay_line[2].block_n  |sampling_block__61          |     5|
+|154   |            \delay_line[3].block_n  |sampling_block__60          |     5|
+|155   |            \delay_line[4].block_n  |sampling_block__59          |     5|
+|156   |            \delay_line[5].block_n  |sampling_block__58          |     5|
+|157   |            \delay_line[6].block_n  |sampling_block__57          |     5|
+|158   |            \delay_line[7].block_n  |sampling_block__56          |     5|
+|159   |        \bank[7].sensors            |tdc                         |   122|
+|160   |          coarse                    |coarse_line                 |    39|
+|161   |            \delay_line[0].block_0  |coarse_block__1             |     8|
+|162   |            \delay_line[0].block_1  |coarse_block__2             |     8|
+|163   |            \delay_line[0].block_2  |coarse_block__3             |     8|
+|164   |            \delay_line[0].block_3  |coarse_block                |     8|
+|165   |            \delay_line[0].mux      |clock_mux__1                |     7|
+|166   |          fine                      |fine_line                   |    43|
+|167   |            \delay_line[0].block_0  |fine_block__1               |     9|
+|168   |            \delay_line[0].block_1  |fine_block__2               |     9|
+|169   |            \delay_line[0].block_2  |fine_block__3               |     9|
+|170   |            \delay_line[0].block_3  |fine_block                  |     9|
+|171   |            \delay_line[0].mux      |clock_mux                   |     7|
+|172   |          sampling                  |sampling_line               |    40|
+|173   |            \delay_line[0].block_n  |sampling_block__1           |     5|
+|174   |            \delay_line[1].block_n  |sampling_block__2           |     5|
+|175   |            \delay_line[2].block_n  |sampling_block__3           |     5|
+|176   |            \delay_line[3].block_n  |sampling_block__4           |     5|
+|177   |            \delay_line[4].block_n  |sampling_block__5           |     5|
+|178   |            \delay_line[5].block_n  |sampling_block__6           |     5|
+|179   |            \delay_line[6].block_n  |sampling_block__7           |     5|
+|180   |            \delay_line[7].block_n  |sampling_block              |     5|
+|181   |        outputs                     |tdc_output                  |  1898|
+|182   |          sum                       |tdc_exp_sum__parameterized2 |  1793|
++------+------------------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:27 . Memory (MB): peak = 1057.484 ; gain = 250.934
+Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:32 . Memory (MB): peak = 1057.484 ; gain = 422.445
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 287 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1057.484 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+315 Infos, 119 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:40 . Memory (MB): peak = 1057.484 ; gain = 759.043
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1057.484 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.runs/design_1_tdc_bank_0_1_synth_1/design_1_tdc_bank_0_1.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_tdc_bank_0_1, cache-ID = 20655ff2df383418
+INFO: [Coretcl 2-1174] Renamed 181 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1057.484 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/OneDrive - Nanyang Technological University/Vivado_design/10.14/NVDLA_SMALL/NVDLA_3.runs/design_1_tdc_bank_0_1_synth_1/design_1_tdc_bank_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_tdc_bank_0_1_utilization_synth.rpt -pb design_1_tdc_bank_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Oct 14 12:55:21 2022...

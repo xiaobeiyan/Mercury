@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Dec 10 20:03:04 2021
+# Process ID: 15340
+# Current directory: C:/Users/Asus/Desktop/NVDLA_SMALL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9752 C:\Users\Asus\Desktop\NVDLA_SMALL\NVDLA_3.xpr
+# Log file: C:/Users/Asus/Desktop/NVDLA_SMALL/vivado.log
+# Journal file: C:/Users/Asus/Desktop/NVDLA_SMALL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Asus/Desktop/NVDLA_SMALL/NVDLA_3.xpr
+update_compile_order -fileset sources_1

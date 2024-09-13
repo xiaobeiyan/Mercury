@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Sep 11 14:36:17 2024
+# Process ID: 12872
+# Current directory: D:/OneDrive - Nanyang Technological University/Research/Projects/SCA on NVDLA/open-sourced-code/hardware_design/whole_block_design_zc706/NVDLA_SMALL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6976 D:\OneDrive - Nanyang Technological University\Research\Projects\SCA on NVDLA\open-sourced-code\hardware_design\whole_block_design_zc706\NVDLA_SMALL\NVDLA_3.xpr
+# Log file: D:/OneDrive - Nanyang Technological University/Research/Projects/SCA on NVDLA/open-sourced-code/hardware_design/whole_block_design_zc706/NVDLA_SMALL/vivado.log
+# Journal file: D:/OneDrive - Nanyang Technological University/Research/Projects/SCA on NVDLA/open-sourced-code/hardware_design/whole_block_design_zc706/NVDLA_SMALL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/OneDrive - Nanyang Technological University/Research/Projects/SCA on NVDLA/open-sourced-code/hardware_design/whole_block_design_zc706/NVDLA_SMALL/NVDLA_3.xpr}
+open_bd_design {D:/OneDrive - Nanyang Technological University/Research/Projects/SCA on NVDLA/open-sourced-code/hardware_design/whole_block_design_zc706/NVDLA_SMALL/NVDLA_3.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
